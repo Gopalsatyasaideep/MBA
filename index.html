@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBA MAKER’S STUDIO | Cinematic Videography</title>
+    <meta name="description" content="MBA MAKER’S STUDIO - Crafting Stories Through Motion. Premium videography portfolio.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/LOGO.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <img src="assets/LOGO.png" alt="MBA MAKER’S STUDIO">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero" id="home">
+        <div class="video-background">
+            <video class="video-player" autoplay muted loop playsinline preload="auto">
+                <source src="assets/Website%20intro.mp4" type="video/mp4">
+            </video>
+            <canvas class="canvas-player"></canvas>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="gsap-hero-text">MBA MAKER'S STUDIO</h1>
+            <p class="tagline gsap-hero-text">Crafting Cinematic Masterpieces</p>
+        </div>
+    </header>
+
+    <!-- 2. ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container split-layout">
+            <div class="about-text gsap-reveal">
+                <h2>Who We Are</h2>
+                <p>We are a premium videography studio dedicated to capturing life's most cinematic moments. From weddings to commercial campaigns, we bring a unique, storytelling-driven approach to every project.</p>
+                <p>Our philosophy is simple: every frame matters. We blend technical precision with artistic vision to create timeless films.</p>
+            </div>
+            <div class="about-video gsap-reveal">
+                <div class="video-wrapper canvas-scroll-video">
+                    <video class="video-player" muted loop playsinline preload="metadata" poster="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg">
+                        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="canvas-player"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. LANDSCAPE VIDEOS SECTION -->
+    <section class="portfolio landscape-portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title gsap-reveal">Featured Works</h2>
+            
+            <!-- Project 1 -->
+            <div class="project-item">
+                <div class="project-info gsap-reveal">
+                    <h3>The Alpine Journey</h3>
+                    <p class="description">A cinematic exploration of the Swiss Alps.</p>
+                    <p class="tools">Sony A7S III • DaVinci Resolve</p>
+                </div>
+                <div class="project-video canvas-interactive-video gsap-reveal">
+                    <video class="video-player" muted playsinline preload="metadata">
+                        <source src="assets/horizantal_video_one.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="canvas-player"></canvas>
+                    <div class="video-overlay-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-item">
+                <div class="project-info gsap-reveal">
+                    <h3>Urban Rhythm</h3>
+                    <p class="description">Capturing the soul of the city nightlife.</p>
+                    <p class="tools">RED Komodo • After Effects</p>
+                </div>
+                <div class="project-video canvas-interactive-video gsap-reveal">
+                    <video class="video-player" muted playsinline preload="metadata">
+                        <source src="assets/horizantal_video_two.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="canvas-player"></canvas>
+                    <div class="video-overlay-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. VERTICAL VIDEOS SECTION -->
+    <section class="vertical-portfolio">
+        <div class="container">
+            <h2 class="section-title gsap-reveal">Vertical Stories</h2>
+            
+            <!-- Vertical 1 -->
+            <div class="vertical-item">
+                <div class="vertical-video-wrapper canvas-interactive-video gsap-reveal">
+                    <video class="video-player" muted playsinline preload="metadata">
+                        <source src="assets/vertical_video_one.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="canvas-player"></canvas>
+                    <div class="video-overlay-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+                </div>
+                <div class="vertical-info gsap-reveal">
+                    <h3>Fashion Week 2024</h3>
+                    <p>Backstage access and runway highlights formatted for social impact. Dynamic portrait storytelling pushed to its cinematic limits.</p>
+                </div>
+            </div>
+
+            <!-- Vertical 2 -->
+            <div class="vertical-item reverse">
+                <div class="vertical-video-wrapper canvas-interactive-video gsap-reveal">
+                    <video class="video-player" muted playsinline preload="metadata">
+                        <source src="assets/vertical_video_two.mp4" type="video/mp4">
+                    </video>
+                    <canvas class="canvas-player"></canvas>
+                    <div class="video-overlay-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+                </div>
+                <div class="vertical-info gsap-reveal">
+                    <h3>Travel Diaries</h3>
+                    <p>Immersive vertical storytelling for the modern traveler. Engaging vertical vistas shot entirely on robust mirrorless systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 6. SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title center gsap-reveal">Our Packages</h2>
+            <div class="services-grid">
+                <div class="service-card gsap-stagger">
+                    <h3>Wedding Films</h3>
+                    <p>Capturing your special day with cinematic elegance.</p>
+                </div>
+                <div class="service-card gsap-stagger">
+                    <h3>Travel Cinematography</h3>
+                    <p>Documenting journeys with breathtaking visuals.</p>
+                </div>
+                <div class="service-card gsap-stagger">
+                    <h3>Commercial Shoots</h3>
+                    <p>Elevating brands through high-quality video production.</p>
+                </div>
+                <div class="service-card gsap-stagger">
+                    <h3>Event Coverage</h3>
+                    <p>Professional coverage for corporate and social events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container center">
+            <div class="testimonial-content gsap-reveal">
+                <blockquote>"MBA Maker's Studio transformed our vision into a masterpiece. The attention to detail is unmatched and the final delivery exceeded all expectations."</blockquote>
+                <cite>— Sarah & James</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info gsap-reveal">
+                    <h2>Let's Create Together</h2>
+                    <p>Ready to tell your story? Get in touch with us to begin pre-production.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/mba_makers_studio/?hl=en" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            Instagram
+                        </a>
+                        <a href="https://www.youtube.com/@MBA-MAKERS-STUDIO" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                            YouTube
+                        </a>
+                        <a href="mailto:mbamakersstudio@gmail.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            mbamakersstudio@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form gsap-reveal">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FOOTER -->
+    <footer>
+        <div class="container center">
+            <div class="footer-logo">MBA MAKER’S STUDIO</div>
+            <p>&copy; 2026 MBA Maker’s Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Libraries -->
+    <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
